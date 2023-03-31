@@ -2,16 +2,23 @@
 <html lang="en-US">
 <head>
 <meta charset="utf-8">
-<link rel="icon" href="https://static-cf.zoomdev.us/fe-static/pwa_chat/0.1.0.783/favicon.ico">
+<link rel="icon" href="/favicon.ico">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="pwa-chat">
-<title>Zoom</title>
+<meta name="description" content="c">
+<title>z</title>
 </head>
 <body>
 <noscript>You need to enable JavaScript to run this app.</noscript>
 <div id="root"></div>
 <script type="text/javascript">
-alert(origin);
+fetch("/chat/token", {
+  "headers": {
+    "content-type": "application/json",
+  },
+  "referrer": "https://pwa.zoomdev.us/chat",
+  "body": "{\"tokenType\":\"all\",\"deviceId\":\"5p8Ksu14RTaev-DTtzsQpQ\",\"cachedResourceId\":\"ZoomChat_pwa_LinPlrVWIy38cW7NEhlWT-w\"}",
+  "method": "POST",
+}).then((e)=>e.json()).then(e=>{alert(JSON.stringify(e))});
 </script>
 </body>
 </html>
