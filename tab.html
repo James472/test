@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>tab Test</title>
+    </head>
+    <body>
+        <script>
+            var h;
+            const f = (e)=>{
+                console.log("eviljs get:",e.data)
+                document.body.appendChild(document.createElement("p").appendChild(document.createTextNode(("eviljs get: ",JSON.stringify(e.data)))));
+            }
+            if (window.webkit){
+                h = window.webkit.messageHandlers.zdcHost;
+                h.setListener = f
+            }else{
+                h = window.chrome.webview
+                h.addEventListener("message",f)
+            }
+            h.postMessage('{"type":"dashboardLoaded"}')
+            h.postMessage('{"type":"getConfigInfo"}')
+            h.postMessage('{"type":"getWbToken"}')
+            h.postMessage(b)
+        </script>
+    </body>
+</html>
